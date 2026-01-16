@@ -1,0 +1,34 @@
+// cout output
+    cout << "Current: " << endl;
+    std::cout << "Temperature: " << j["current"]["temp_f"] << "F" << std::endl;
+    cout << "High: " << j["forecast"]["forecastday"][0]["day"]["maxtemp_f"] << "F" << endl;
+    cout << "Low: " << j["forecast"]["forecastday"][0]["day"]["mintemp_f"] << "F" << endl;
+    cout << "Chance of Rain: " << j["forecast"]["forecastday"][0]["day"]["daily_chance_of_rain"] << "%" << endl;
+    std::cout << "Condition: " << j["current"]["condition"] << std::endl;
+    std::cout << "Wind Speed: " << j["current"]["wind_mph"] << " mph" << std::endl;
+    std::cout << "Gusts: " << j["current"]["gust_mph"] << " mph" << std::endl;
+    std::cout << "Humidity: " << j["current"]["humidity"] << "%" << std::endl;
+    std::cout << "Feels Like: " << j["current"]["feelslike_f"] << "F" << std::endl;
+    std::cout << "Visibility: " << j["current"]["vis_miles"] << " mi" << std::endl;
+    std::cout << "UV Index: " << j["current"]["uv"] << std::endl << std::endl;
+    
+    std::string date = j["forecast"]["forecastday"][1]["date"];
+    std::cout << dayOfWeek(date) << ", " << date << "\n";
+    cout << "High: " << j["forecast"]["forecastday"][1]["day"]["maxtemp_f"] << "F" << endl;
+    cout << "Low: " << j["forecast"]["forecastday"][1]["day"]["mintemp_f"] << "F" << endl;
+    cout << "Chance of Rain: " << j["forecast"]["forecastday"][1]["day"]["daily_chance_of_rain"] << "%" << endl;
+    cout << "Condition: " << j["forecast"]["forecastday"][1]["day"]["condition"] << endl << endl;
+    
+    std::string date1 = j["forecast"]["forecastday"][2]["date"];
+    std::cout << dayOfWeek(date1) << ", " << date1 << "\n";
+    cout << "High: " << j["forecast"]["forecastday"][2]["day"]["maxtemp_f"] << "F" << endl;
+    cout << "Low: " << j["forecast"]["forecastday"][2]["day"]["mintemp_f"] << "F" << endl;
+    cout << "Chance of Rain: " << j["forecast"]["forecastday"][2]["day"]["daily_chance_of_rain"] << "%" << endl;
+    cout << "Condition: " << j["forecast"]["forecastday"][2]["day"]["condition"] << endl << endl;
+
+    std::string date2 = j["forecast"]["forecastday"][3]["date"];
+    std::cout << dayOfWeek(date2) << ", " << date2 << "\n";
+    cout << "High: " << j["forecast"]["forecastday"][3]["day"]["maxtemp_f"] << "F" << endl;
+    cout << "Low: " << j["forecast"]["forecastday"][3]["day"]["mintemp_f"] << "F" << endl;
+    cout << "Chance of Rain: " << j["forecast"]["forecastday"][3]["day"]["daily_chance_of_rain"] << "%" << endl;
+    cout << "Condition: " << j["forecast"]["forecastday"][3]["day"]["condition"] << endl << endl;
