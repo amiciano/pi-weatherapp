@@ -35,6 +35,3 @@ Thumbs.db
 
 # output json
 weather-ui/data/weather.json
-
-# keep data folder
-weather-ui/data/.gitkeep
