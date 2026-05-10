@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <div class="top">
+      <div class="left">
+        <div class="loc" id="loc">—</div>
+        <div class="condRow">
+          <img id="curIcon" class="wxicon big" alt="" />
+          <div class="cond" id="cond">—</div>
+        </div>
+        <div class="updated">Updated: <span id="updated">—</span></div>
+      </div>
+      <div class="temp" id="temp">—°</div>
+    </div>
+
+    <div class="grid">
+      <div class="card"><div class="label">High</div><div class="value" id="high">—</div></div>
+      <div class="card"><div class="label">Low</div><div class="value" id="low">—</div></div>
+      <div class="card"><div class="label">Feels like</div><div class="value" id="feels">—</div></div>
+      <div class="card"><div class="label">Rain</div><div class="value" id="rain">—</div></div>
+
+      <div class="card"><div class="label">Wind</div><div class="value" id="wind">—</div></div>
+      <div class="card"><div class="label">Gusts</div><div class="value" id="gusts">—</div></div>
+      <div class="card"><div class="label">Humidity</div><div class="value" id="hum">—</div></div>
+      <div class="card"><div class="label">UV</div><div class="value" id="uv">—</div></div>
+    </div>
+
+    <div class="sectionTitle">Forecast</div>
+    <div class="forecast" id="forecast"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

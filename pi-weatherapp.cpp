@@ -135,7 +135,7 @@ int main() {
     out["last_updated"] = buf;
 
     // get out!
-    std::ofstream file("C:/Users/adria/Downloads/weather.json");
+    std::ofstream file("C:/Users/adria/source/repos/pi-weatherapp/weather-ui/data/weather.json");
     if (!file) {
         std::cerr << "Failed to open path for writing\n";
     }

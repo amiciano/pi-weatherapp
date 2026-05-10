@@ -1,0 +1,61 @@
+{
+    "current": {
+        "condition": {
+            "code": 1063,
+            "text": "Patchy rain nearby"
+        },
+        "feelslike": 77.4,
+        "gusts": 11.9,
+        "high": 84.4,
+        "humidity": 74,
+        "low": 63.7,
+        "rain": 90,
+        "show_radar": true,
+        "temp": 73.9,
+        "uv": 0.0,
+        "wind": 7.2
+    },
+    "forecast": [
+        {
+            "condition": {
+                "code": 1195,
+                "icon": "//cdn.weatherapi.com/weather/64x64/day/308.png",
+                "text": "Heavy rain"
+            },
+            "date": "2026-05-10",
+            "day": "Sunday",
+            "high": 84.4,
+            "low": 63.7,
+            "rain": 90
+        },
+        {
+            "condition": {
+                "code": 1063,
+                "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+                "text": "Patchy rain nearby"
+            },
+            "date": "2026-05-11",
+            "day": "Monday",
+            "high": 74.1,
+            "low": 62.6,
+            "rain": 87
+        },
+        {
+            "condition": {
+                "code": 1000,
+                "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+                "text": "Sunny"
+            },
+            "date": "2026-05-12",
+            "day": "Tuesday",
+            "high": 80.7,
+            "low": 61.1,
+            "rain": 0
+        }
+    ],
+    "last_updated": "2026-05-10T02:05:53",
+    "locaton": {
+        "name": "Dallas",
+        "region": "Texas"
+    }
+}
