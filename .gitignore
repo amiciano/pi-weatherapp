@@ -32,3 +32,6 @@ Makefile
 # OS junk
 .DS_Store
 Thumbs.db
+
+# output json
+weather-ui/data/weather.json
