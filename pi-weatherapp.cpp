@@ -71,7 +71,7 @@ int main() {
     json out;
 
     // location
-    out["locaton"] = {
+    out["location"] = {
         {"name", j["location"]["name"]},
         {"region", j["location"]["region"]}
     };
